@@ -1,33 +1,36 @@
 html {
-    font-size: 100%;
-    box-sizing: border-box;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    line-height: 1.3;
-    font-family: "Public Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+  font-family: "Public Sans", sans-serif;
+  color: $grayishBlue;
+  overflow-x: hidden;
 }
 
-//Flexbox
+// Flexbox
 .flex {
-    display: flex;
-    &-jc-sb {
-        justify-content: space-between;
-    }
+  display: flex;
 
-    &-jc-c {
-        justify-content: center;
-    }
+  &-jc-sb {
+    justify-content: space-between;
+  }
 
-    &-ai-c {
-        align-items: center;
-    }
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
 }
