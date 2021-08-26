@@ -44,8 +44,9 @@ a:hover {
 }
 
 //Button style
-button, .button {
-  padding: 1rem 1.875rem;
+button,
+.button {
+  padding: 0.875rem 2.1875rem;
   background: linear-gradient(to right, $limeGreen, $brightCyan);
   border-radius: 50px;
   border: 0;
