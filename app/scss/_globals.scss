@@ -17,13 +17,13 @@ body {
   color: $grayishBlue;
   font-size: $font-med;
   overflow-x: hidden;
+  font-weight: 300;
 }
 
 a,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: $grayishBlue;
 }
 
 // Flexbox
@@ -41,4 +41,15 @@ a:hover {
   &-ai-c {
     align-items: center;
   }
+}
+
+//Button style
+button, .button {
+  padding: 1rem 1.875rem;
+  background: linear-gradient(to right, $limeGreen, $brightCyan);
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  color: $white;
+  font-weight: 400;
 }
