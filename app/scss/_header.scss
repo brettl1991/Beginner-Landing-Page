@@ -1,8 +1,7 @@
 .header {
   //Hamburger open styles
   &.open {
-
-    .header-menu {
+    .header__toggle {
       > span:first-child {
         transform: rotate(45deg);
       }
@@ -14,7 +13,7 @@
       > span:last-child {
         transform: rotate(-45deg);
       }
-  }
+    }
   }
 
   .overlay {
