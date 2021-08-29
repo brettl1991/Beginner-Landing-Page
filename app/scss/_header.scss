@@ -26,7 +26,8 @@
   }
 
   nav {
-    padding: 1.0625rem 1.5rem;
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0635rem;
   }
 
   &__logo {
@@ -50,6 +51,20 @@
       &:not(:last-child) {
         margin-bottom: 5px;
       }
+    }
+  }
+
+  &__menu {
+    background: $white;
+    padding: 1.625rem 0;
+
+    a {
+      display: block;
+      color: $darkBlue;
+      padding: 0.625rem;
+      text-align: center;
+      
+       
     }
   }
 
