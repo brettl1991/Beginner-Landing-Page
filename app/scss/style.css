@@ -187,8 +187,15 @@ button,
 }
 
 .header__menu {
+  position: absolute;
+  width: calc(100% - 3rem);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   background: white;
+  margin-top: 1.5rem;
   padding: 1.625rem 0;
+  border-radius: 5px;
 }
 
 .header__menu a {
