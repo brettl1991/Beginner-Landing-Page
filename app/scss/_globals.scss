@@ -18,6 +18,10 @@ body {
   font-size: $font-med;
   overflow-x: hidden;
   font-weight: 300;
+
+  &.noscroll {
+    overflow: hidden;
+  }
 }
 
 a,

@@ -96,6 +96,10 @@ body {
   font-weight: 300;
 }
 
+body.noscroll {
+  overflow: hidden;
+}
+
 a,
 a:visited,
 a:hover {
